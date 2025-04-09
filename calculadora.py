@@ -6,7 +6,7 @@ def calculadora():
     seguir = True
     while seguir:
         print("Calculadora simple en Python")
-        print("Operaciones disponibles: +, -, *, /")
+        print("Operaciones disponibles son todas estas : +, -, *, /")
 
         a = float(input("Introduce el primer número para sumar: "))
         operacion = input("Introduce la operación (+, -, *, /): o S para salir")
