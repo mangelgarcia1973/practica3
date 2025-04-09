@@ -15,7 +15,8 @@ def calculadora():
 
         if operacion == "+":
             resultado = sumar(a, b)
-            
+        elif operacion == "-":
+            resultado = restar(a, b)            
 
         seguir = operacion != "S"
 
