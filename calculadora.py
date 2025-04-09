@@ -8,9 +8,9 @@ def calculadora():
         print("Calculadora simple en Python")
         print("Operaciones disponibles: +, -, *, /")
 
-        a = float(input("Introduce el primer número: "))
+        a = float(input("Introduce el primer número para sumar: "))
         operacion = input("Introduce la operación (+, -, *, /): o S para salir")
-        b = float(input("Introduce el segundo número: "))    
+        b = float(input("Introduce el segundo número para sumar: "))    
 
 
         if operacion == "+":
