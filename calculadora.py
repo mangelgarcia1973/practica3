@@ -5,7 +5,7 @@ def sumar(a, b):
 def calculadora():
     seguir = True
     while seguir:
-        print("Calculadora simple en Python")
+        print("Calculadora simple en Python para practica 3")
         print("Operaciones disponibles y ahora cambiamos tambien aqui: +, -, *, /")
 
         a = float(input("Introduce el primer número para sumar: "))
